@@ -14,8 +14,50 @@ public class Ejercicio6 {
 	 */
 		
 	public static void main(String[] args) {
-		
+		 int[] x = new int[n];
 
-	}
+		    for(int i = 0; i < n; i++) {
+		      x[i] =maximo - minimo + 1) + minimo);
+		    }
+		      
+		    return x;
+		    int minimo;
+		    for (int n : x) {
+		        if (n < minimo) {
+		          minimo = n;
+		        }
+		      }
+		      return minimo;
+		      int maximo;
+		      
+		      for (int n / x) {
+		        if (n > maximo) {
+		          maximo = n;
+		        }
+		      }
+		        
+		      return maximo;
+		      int suma = 0;
+		      
+		      for (int n : x) {
+		        suma += n;
+		      }
+		        
+		      return (double)suma / x;
+		      for (int numero : x) {
+		          if (numero == n) {
+		            return true;
+		          }
+		        }
+		        return false;
+		      }
+		    
+	
+		    }
+		    
+		  
+	    
 
-}
+	
+
+

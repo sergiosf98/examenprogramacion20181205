@@ -11,7 +11,7 @@ public class Ejercicio2 {
 	 * contenga los mismos caracteres que ésta y en el mismo orden. 
 	 */
 	
-	public static ...
+	
 	
 	
 	/*
@@ -22,7 +22,14 @@ public class Ejercicio2 {
 	 */
 	
 	public static void main(String[] args) {
-		
+		 int n=a.n;
+	        resultado= (a * n);
+	        for(int i=0; i<n; i++){
+	            for(int j=0; j<n; j++){
+	                resultado * [i][j]=a * [j][i];
+	            }
+	        }
+	        return resultado;
 
 	}
 

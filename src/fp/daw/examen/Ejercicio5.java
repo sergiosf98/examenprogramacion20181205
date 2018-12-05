@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Scanner;
+
 public class Ejercicio5 {
 
 	/* 
@@ -23,8 +25,19 @@ public class Ejercicio5 {
 	 */
 	
 	public static void main(String[] args) {
-		
-
+	      Scanner teclado=new Scanner(System.in);
+	      
+	        
+	        double importe=0;
+	        do{
+	          
+	                System.out.print("Introduce el cambio:");
+	                importe=teclado.nextDouble();
+	           
+	        while(importe<=0); {
+	        	calcular(importe);}
+	    }
 	}
-
 }
+	 
+	  

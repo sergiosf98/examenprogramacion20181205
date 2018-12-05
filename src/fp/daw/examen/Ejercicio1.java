@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Scanner;
+
 public class Ejercicio1 {
 
 	/* 
@@ -13,7 +15,7 @@ public class Ejercicio1 {
 	 * uso de variables booleanas.
 	 */
 	
-	public static ...
+	
 	
 	/*
 	 * 0,25 puntos
@@ -23,6 +25,20 @@ public class Ejercicio1 {
 	 */
 	
 	public static void main(String[] args) {
+		import java.util.Scanner
+		
+		
+		int vector = {1, 3, 5, 7 ,9};
+		
+		System.out.println("Introduce un número del 1 al 10:");
+		Scanner teclado=new Scanner(System.in)
+		if (teclado = {1, 3, 6, 7, 9}) {
+		
+		System.out.println("Correcto");
+		else 
+			System.out.println("Incorrecto");
+		}
+		
 		
 
 	}

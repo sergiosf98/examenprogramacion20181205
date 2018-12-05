@@ -22,8 +22,37 @@ public class Ejercicio4 {
 	 */
 	
 	public static void main(String[] args) {
-		
+		for (int n : x) {
+		      System.out.print(n + " ");
+		    }
+		    System.out.println();
+		    int minimo;
+		    for (int n : x) {
+		        if (n < minimo) {
+		          minimo = n;
+	}
+		        return minimo;
 
 	}
-
+		    int maximo;
+		    for (int n : x) {
+		        if (n > maximo) {
+		          maximo = n;
+		        }
+		      }
+		        
+		      return maximo;
+	}
+	 int suma = 0;
+	    
+	    for (int n : x) {
+	      suma += n;
+	    }
+	    for (int numero : x) {
+	        if (numero == n) {
+	          return true;
+	        }
+	      }
+	      return false;
+}
 }
