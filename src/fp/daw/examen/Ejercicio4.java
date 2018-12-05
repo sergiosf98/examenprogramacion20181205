@@ -22,11 +22,12 @@ public class Ejercicio4 {
 	 */
 	
 	public static void main(String[] args) {
+		import java.util.Scanner
 		for (int n : x) {
 		      System.out.print(n + " ");
 		    }
 		    System.out.println();
-		    int minimo;
+		    int minimo
 		    for (int n : x) {
 		        if (n < minimo) {
 		          minimo = n;

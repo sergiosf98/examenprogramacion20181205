@@ -25,7 +25,7 @@ public class Ejercicio1 {
 	 */
 	
 	public static void main(String[] args) {
-		import java.util.Scanner
+		import java.util.Scanner;
 		
 		
 		int vector = {1, 3, 5, 7 ,9};
